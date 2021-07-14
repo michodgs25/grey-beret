@@ -1,102 +1,178 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<h2 align="center">Weather App</h2>
+<div align="center">
+<img src="https://cdn.givingcompass.org/wp-content/uploads/2019/12/02081412/Climate-Change-and-the-New-Language-of-Weather-800x450.jpg" 
+     target="_blank" rel="noopener" alt="Products">
+</div>
 
-Welcome USER_NAME,
+# Project Overview
+Knowing what the weather is like at your location, is key to deciding your wardrobe, which time to arrive and whether to go in the first place.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+## Purpose
+The purpose of the application is to allow users to find out the weather at their location or a destination by entering the postcode, town/city.
 
-## Gitpod Reminders
+## Contents
+* [purpose](#Purpose)
+* [requirements](#Requirements)
+   * [front-end-requirements](#Front-end-requirements)
+   * [homepage-requirements](#Homepage-requirements)
+   * [Add-or-Edit-View-requirements](#Add-or-Edit-View-requirements)
+* [wireframes](#Wireframes)
+   * [Homepage-wireframe](#Homepage-wireframes)
+   * [Add-or-Edit-wireframe](#Add-or-Edit-wireframes)
+* [Database](#Database)
+* [Heroku](#Heroku)
+* [Technologies](#Technologies)
+     * [Languages](#Languages)
+     * [Libraries](#Libraries)
+* [Deployment](#Deployment)
+     * [Heroku](#Heroku)
+* [Acknowledgements](#Acknowledgements)
+     * [External-Media](#External-Media)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Requirements
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
+This is called the CRUD method.
 
-Another blue button should appear to click: _Open Browser_.
+### Front-end requirements
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+#### Homepage requirements
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Wireframes
 
-To log into the Heroku toolbelt CLI:
+<h2 align="center">Homepage wireframe</h2>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+<div align="center">
+<img src="https://user-images.githubusercontent.com/28734598/124751825-fce7e180-df1e-11eb-90a9-479c24c58aeb.png" 
+     target="_blank" rel="noopener" alt="Homepage wireframe">
+</div>
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+<h2 align="center">Add or Edit wireframes</h2>
 
-------
+<div align="center">
+<img src="https://user-images.githubusercontent.com/28734598/124751836-007b6880-df1f-11eb-9735-e98707dadc8a.png" 
+     target="_blank" rel="noopener" alt="Add or Edit wireframe">
+</div>
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+## Database
+I chose MongoDB as my chosen database, because MongoDB provides high performance data persistence. In particular,
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+Support for embedded data models reduces I/O activity on database system.
+Indexes support faster queries and can include keys from embedded documents and arrays.
+Rich Query Language
+MongoDB supports a rich query language to support read and write operations (CRUD) see more at: https://docs.mongodb.com/manual/introduction/
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+## Heroku 
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+I hosted the product table on Heroku as it is simple to set up for small scale projects such as this. See more at - https://devcenter.heroku.com/
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Technologies 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+* W3S html& css validator - https://validator.w3.org/: Tested both my HTML& CSS code and provided feedback to improve quality.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+* Google dev tools: found top right corner of the chrome browser, more tool then bottom option. Provided a virtual testing environment.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Languages
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+In this project I used *HTML5*, *CSS*, *PYTHON* and *JINJA* programming languages.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Libraries
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+- Flask 
+* https://flask.palletsprojects.com/en/2.0.x/
 
-------
+- MongoDb
+* https://www.mongodb.com/
 
-## FAQ about the uptime script
+- Materialize CSS and JS Libraries: 
+* https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css 
 
-**Why have you added this script?**
+* https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- Python 3.7: https://www.python.org/
 
-**How will this affect me?**
+- Font Awesome: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+- JQuery library: https://jquery.com/ 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+## Deployment
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+#### Requirements 
+You will need the following tools installed on your system:
 
-**So….?**
+Python 3 - https://www.python.org/downloads/
+An IDE such as Visual Studio, gitpod, Code, or like this project gitpod
+An account at MongoDB Atlas - https://account.mongodb.com/account/login
+Git - https://gist.github.com/derhuerst/1b15ff4652a867391f03
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
+I personally used github on my local machine to develop the site using Python 3.7.3 and deployed to Heroku via Github.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+1. To download or clone the site to your local machine you will need to go to my repo [here.](https://github.com/michodgs25/jeffs-store) and see deployment steps in https://help.github.com/en/articles/cloning-a-repository
 
+2. Before you download or clone the site you will need to ensure you have Python 3.7 or above installed.
+
+3. Once you have Python installed, created a virtual environment as appropriate to your chosen IDE and os.
+
+4. Run the requirements.txt file as appropriate to your IDE to install the relevant required packages dependencies for the project into your virtual environment.
+
+5. Create a MONGODB account, Create a cluster and follow the mongodb steps to connecting with your application.
+
+6. I created an env.py file(make sure its added to '.gitignore' file. As to ensure no secret keys are exposed) and add the following:
+  - **IP**: `0.0.0.0`
+  - **PORT**: `8000`
+  - **MONGO_URI**: `string to connect with MongoDB`
+  - **SECRET_KEY**: `your chosen secret key`
+
+7. Add these to the top of your app.py file:
 ```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+import os
+from flask import (
+    Flask, render_template, redirect, request, session, url_for)
+from flask_pymongo import PyMongo
+from bson.objectid import ObjectId
+if os.path.exists("env.py"):
+    import env
+ ```
 
-**Anything more?**
+8. Run the app.py file as appropriate to your chosen environment and os.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+9. You should now be able to view the site on your localhost on port 8000.
 
----
 
-Happy coding!
+## Heroku
+
+#### Instructions
+To deploy this app to Heroku you need to follow the steps below:
+
+- Create a **requirements.txt** file so that Heroku can install all the dependencies required to run the app.
+  `pip freeze > requirements.txt`
+
+- Create a **Procfile** with the command:
+  `echo web: python app.py > Procfile`
+
+- In this step, you have to create a free account on the [Heroku website](https://signup.heroku.com/).
+-  Login to the account, click on new and then create a new app. In the following screen, you need to give a name and choose the Europe region.
+-  In the menu access the **Deploy** option, after that click on Connect to Github. Just below provide the information from the app's repository on GitHub and select the option Enable Automatic Deploy.
+- On the Dashboard of the APP, click on Settings and then click on the option **Reveal config Vars**.
+- Now you need to add the following variables to **Reveal config Vars**:
+  - **IP**: `0.0.0.0`
+  - **PORT**: `8000`
+  - **MONGO_URI**: `string to connect with MongoDB`
+  - **SECRET_KEY**: `your chosen secret key`
+- You are now ready to access the deployed app on Heroku.
+
+
+## Acknowledgements
+
+Thank you to Clere group for providing me the opportunity to display my skills.
+
+### External-Media
+All images were take from Google images advanced search with filter - __"free to use or share"__
+
+Wireframe images were taken from __https://github.com/deltabrot/clere-coding-challenge-api__
