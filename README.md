@@ -12,10 +12,6 @@ The purpose of the application is to allow users to find out the weather at thei
 
 ## Contents
 * [purpose](#Purpose)
-* [requirements](#Requirements)
-   * [front-end-requirements](#Front-end-requirements)
-   * [homepage-requirements](#Homepage-requirements)
-   * [Add-or-Edit-View-requirements](#Add-or-Edit-View-requirements)
 * [wireframes](#Wireframes)
    * [Homepage-wireframe](#Homepage-wireframes)
    * [Add-or-Edit-wireframe](#Add-or-Edit-wireframes)
@@ -29,30 +25,28 @@ The purpose of the application is to allow users to find out the weather at thei
 * [Acknowledgements](#Acknowledgements)
      * [External-Media](#External-Media)
 
-## Requirements
-
-
-This is called the CRUD method.
-
-### Front-end requirements
-
-#### Homepage requirements
-
-
+----------------
 
 ## Wireframes
 
-<h2 align="center">Homepage wireframe</h2>
+<h2 align="center">Homepage</h2>
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/28734598/124751825-fce7e180-df1e-11eb-90a9-479c24c58aeb.png" 
+<img src="" 
      target="_blank" rel="noopener" alt="Homepage wireframe">
 </div>
 
-<h2 align="center">Add or Edit wireframes</h2>
+<h2 align="center">Search</h2>
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/28734598/124751836-007b6880-df1f-11eb-9735-e98707dadc8a.png" 
+<img src="" 
+     target="_blank" rel="noopener" alt="Add or Edit wireframe">
+</div>
+
+<h2 align="center">Results</h2>
+
+<div align="center">
+<img src="" 
      target="_blank" rel="noopener" alt="Add or Edit wireframe">
 </div>
 
