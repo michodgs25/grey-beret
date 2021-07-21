@@ -15,12 +15,12 @@ mongo = PyMongo(app)
 
 
 @app.route("/")
-@app.route("/index")
-def get_index():
+@app.route("/weather")
+def get_weather():
     """Define domain pathway to homepage.
     Args:
     get index: define opening page of the platform.
     Returns:
-    the index.html document.
+    the weather.html document.
     """
-    return render_template("index.html")
+    return render_template("weather.html")
